@@ -1,14 +1,64 @@
-body {background-color: rgb(87, 16, 16);}
+.logo{
+  padding: 50px;
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
 
-.center {
-    margin: auto;
-    display: block;
-    margin: 100px;
-  }
+.logopng{
+  object-fit: contain;
+  display: block;
+}
 
-  div{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+.clases{
+  max-width: 600px;
+  background-color: #111111;
+  text-align: center;
+  color: aliceblue;
+  padding: 20px;
+}
 
-  }
+.clasesparent{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.google-map {
+     padding-bottom: 25%;
+     position: relative;
+}
+
+
+
+.google-map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+
+.google-map-contacto {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+
+.google-map-contacto iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.contacto{
+  padding: 50px;
+  height: 80vh;
+}
+
+a:link { text-decoration: none; }
+

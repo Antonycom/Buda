@@ -1,22 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Clubbuda</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <title>ClubBuda</title>
 </head>
 
 
 
 <body>
-    
-    <div>
-    <img src="logo.PNG" alt="" class="center">
+
+  <nav class="navbar navbar-dark bg-dark fixed-top" style="--bs-bg-opacity: .5;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Club Buda</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Club Buda</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#clasesparent">Clases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactanos.html">Direccion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Precio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactanos.html">Contacto</a>
+            </li>
+
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="logo">
+    <img src="logo.PNG" class="img-fluid logopng" alt="club buda logo">
+  </div>
+
+
+
+<div class="clasesparent" id="clasesparent">
+  <div class="clases d-flex flex-column align-items-center">
+
+    <h2 class="m-2">¡Descubre nuestras clases de kickboxing y muay thai!</h2>
+
+    <p class="m-2">Nuestro club ofrece clases para todos los niveles, desde principiantes hasta avanzados. Con entrenadores
+      expertos, te ayudaremos a desarrollar tus habilidades y alcanzar tus objetivos en estas disciplinas de combate.
+    </p>
+
+    <p class="m-2"> Mejora tu condición física, aprende técnicas de defensa personal.</p>
+
+    <p class="m-2"> ¡Únete a nosotros y comienza tu viaje de automejora y superación personal en el kickboxing y el muay thai! ¡Te
+      esperamos ansiosos para entrenar contigo!</p>
+
+      <a href="contactanos.html">
+      <button type="button" class="mt-4 btn btn-light btn-lg">CONTACTANOS</button>
+      </a>
+
+  </div>
 </div>
 
 
+
+
+
+
+
+
+
+  <div class="google-map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12812.540175722777!2d-4.5315129018751055!3d36.599056467528555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fb72f1aef1b9%3A0x6e83ada73c698717!2sCLUB%20BUDA%2C%20Kick%20Boxing%2CBoxeo%2C%20Muay%20thai!5e0!3m2!1sen!2ses!4v1686223811743!5m2!1sen!2ses"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+
+
+
 </body>
+
+
+
+
 
 </html>
