@@ -69,10 +69,18 @@
 a:link { text-decoration: none; }
 
 .review{
-	height: 420px;
-	padding: 20px;
+	height: 520px;
+	padding: 90px;
 	background-color: #111111;
 }
+
+@media only screen and (max-width: 500px) {
+	.review{
+		height: 520px;
+		padding: 40px;
+		background-color: #111111;
+	}
+  }
 
 
 .rbd-review-slider .rbd-preloader {
