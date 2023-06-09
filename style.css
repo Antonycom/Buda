@@ -91,6 +91,13 @@ a:link { text-decoration: none; }
 	display: inline-block;
 }
 
+@media only screen and (max-width: 500px) {
+	.rbd-review-slider .rbd-review.rbd-next {
+		transform: translate3d(0px,0,-50px);
+		display: inline-block;
+	}
+  }
+
 .rbd-review-slider .rbd-review.rbd-curr {
 	z-index: 10;
 	transform: translate3d(0,0,0) scale(1);
