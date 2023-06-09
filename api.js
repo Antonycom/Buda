@@ -1,3 +1,4 @@
+
 let options = {
 	'speed': 3000,
 	'pause': true,
