@@ -43,3 +43,6 @@ window.addEventListener('DOMContentLoaded', function() {
 		slide();
 	}, options.speed);
 }, true);
+
+
+
